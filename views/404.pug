@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title My first express app
+  body
+     h1 Page not found
+     h2= `${err.status} - ${err.message}`
+     p= err.stack
+     a(href= '/') Home
