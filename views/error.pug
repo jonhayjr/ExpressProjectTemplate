@@ -1,8 +1,5 @@
-doctype html
-html
-  head
-    title My first express app
-  body
+extends layout.pug 
+block content
      h1 An error has occurred
      h2= `${err.status} - ${err.message}`
      p= err.stack
