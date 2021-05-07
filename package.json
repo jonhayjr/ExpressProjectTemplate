@@ -1,9 +1,29 @@
 {
   "name": "Express App Template",
+  "version": "1.0.0",
+  "description": "This is an express template that was built using Node.js, Express.js and Pug.",
+  "keywords": [
+    "node",
+    "express",
+    "template"
+  ],
+  "repository": "",
+  "homepage": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "14.6.0"
+  },
+  "author": "Jon Hay <jonhayjr@gmail.com> (https://www.jonhayjr.com)",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
+    "path": "^0.12.7",
     "pug": "^3.0.2"
-  },
-  "version": "1.0.0"
+  }
 }
